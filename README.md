@@ -1,4 +1,4 @@
-# cod-magento-docker
+# magento-docker
 ## add virtual host  
 ```
 sudo nano /etc/hosts
@@ -24,8 +24,8 @@ to exit
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => 'customentities_mysql',
-                'dbname' => 'customentities',
+                'host' => 'wm_mysql',
+                'dbname' => 'webmeridian',
                 'username' => 'admin',
                 'password' => '1234',
                 'active' => '1'
