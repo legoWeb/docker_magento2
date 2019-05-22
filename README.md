@@ -5,7 +5,7 @@ sudo nano /etc/hosts
 ```
 insert string
 ```
-127.0.0.1    docker.customentities.com
+127.0.0.1    docker.webmeridian.local
 ```
 to save press 
 ```
