@@ -1,0 +1,5 @@
+/magento/*
+/mysql-data/*
+!/magento/.gitkeep
+!/mysql-data/.gitkeep
+.idea/
