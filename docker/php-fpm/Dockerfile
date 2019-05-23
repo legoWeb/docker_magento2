@@ -23,6 +23,8 @@ RUN sed -e 's/127.0.0.1:9000/9000/' \
         -e '/error_log/d' \
         -i /etc/php-fpm.d/www.conf
 RUN mkdir -p /var/www/html
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 VOLUME /var/www/html
+WORKDIR /var/www/htm
 EXPOSE 9000
 ENTRYPOINT /usr/sbin/php-fpm --nodaemonize
