@@ -35,3 +35,10 @@ mysql:
         - MYSQL_PASSWORD=1234
         - MYSQL_DATABASE=webmeridian
         - MYSQL_USER=admin
+phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    ports:
+        - 8090:80
+    links:
+        - mysql:db
