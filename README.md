@@ -33,3 +33,18 @@ to exit
         ]
     ],
 ```
+copy your app(project) in folder "magento"
+
+install Docker and Docker-compose for your computer
+```
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
+```
+run command in console core this folder 
+```
+docker-compose build
+```
+run command in console core this folder
+ ```
+docker-compose up -d
+ ```
+ 
